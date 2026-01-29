@@ -1,9 +1,3 @@
-//var dx = 0;
-//var dy = 0;
-
-esquerda = keyboard_check(ord("A")) 
-direita  = keyboard_check(ord("D")) 
-
-velocidade = (direita - esquerda) * velocidade;
-
-x+= hvelocidade 
+var mov = 4;
+if (keyboard_check(ord("A"))) x -= mov;
+if (keyboard_check(ord("D"))) x += mov;
